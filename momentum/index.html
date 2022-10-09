@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum App</title>
+</head>
+<body>
+    
+    <form id="login-form" class="hidden">
+        <input required maxlength="10"  style="width: 150px; height: 40px ;" type="text" placeholder="What is your name?">
+        <input type="submit" value="Log In" style="width: 60px; height: 40px ;">
+    </form>
+    <h1 id="greeting" class="hidden" style="font-family:Thunderman ;"></h1>
+    <br><br><br><br><br>
+    <form id="todo-form" style="text-align:center ;">
+        <input type="text" required placeholder="Write a To Do and press Enter" style="width: 500px ; height: 30px;"/>
+    </form>
+    <ul id="todo-list" style="text-align:center ; font-family: Thunderman;"></ul>
+    <h2 id="clock" style="right: 65px; top: 43px; position: fixed; font-family:Thunderman ; z-index: 2;">00:00:00</h2>
+    <img src="./img/faceless_BMO.jpg" style="right: 40px; top: 20px; position: fixed; z-index: 1;"  width="160.3px" height="140px"/>
+    <h1 class="hidden" id="greeting"></h1>
+    <br><br><br><br><br>
+    <div id="quote" style="text-align: center; font-family: Thunderman;">
+        <span></span>
+        <span></span>
+    </div>
+    <br>
+    <div id="weather" style="position:relative;">
+        <span style="font-size: 30px;"></span>
+    </div>
+</body>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/loginJS.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</html>

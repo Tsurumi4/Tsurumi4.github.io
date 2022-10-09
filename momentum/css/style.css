@@ -1,0 +1,16 @@
+.hidden{
+    display: none;
+}
+
+@font-face{
+	src: url("../font/Thunderman.ttf");
+    font-family: "Thunderman"; 
+ }
+ 
+ #jua_font{
+ font-family: "Thunderman";
+ }
+ #todo-list li{
+    font-size: 20pt;
+    list-style: none;
+ }
